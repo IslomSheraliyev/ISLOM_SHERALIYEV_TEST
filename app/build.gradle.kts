@@ -1,14 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.hilt.android.plugin)
 }
 
 android {
-    namespace = "uz.isheraliyev.test"
+    namespace = "uz.isheraliyev.project"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "uz.isheraliyev.test"
+        applicationId = "uz.isheraliyev.project"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +69,16 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.maps.compose)
+    implementation(libs.play.services.maps)
+
+    // Hilt
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+    implementation(libs.androidx.hilt.navigation.compose)
+
+    implementation(libs.advanced.bottomsheet.material3)
+
+
 }

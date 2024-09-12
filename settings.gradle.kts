@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ISLOM_SHERALIYEV_TEST"
+rootProject.name = "Project"
 include(":app")
  

@@ -1,4 +1,4 @@
-package uz.isheraliyev.test
+package uz.isheraliyev.project
 
 import org.junit.Test
 

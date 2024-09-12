@@ -1,4 +1,4 @@
-package uz.isheraliyev.test
+package uz.isheraliyev.project
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

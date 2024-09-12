@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ISLOM_SHERALIYEV_TEST</string>
+    <string name="app_name">Project</string>
+    <string name="card_title">Kalilama bus stop</string>
+    <string name="bus_number">bus 88</string>
+    <string name="bus_towards_to">to Kaliangkrik</string>
+    <string name="wifi_text">2, 12, 24 min</string>
+    <string name="display_distance">Display distance</string>
+    <string name="metres">75 M</string>
+    <string name="bus">Bus</string>
+    <string name="taxi">Taxi</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="scooter">Scooter</string>
 </resources>
