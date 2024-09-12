@@ -80,5 +80,7 @@ dependencies {
 
     implementation(libs.advanced.bottomsheet.material3)
 
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+
 
 }
